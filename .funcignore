@@ -1,0 +1,13 @@
+.git*
+.vscode
+__azurite_db*__.json
+__blobstorage__
+__queuestorage__
+local.settings.json
+test
+.venv
+mk.toml
+pyrightconfig.json
+README.md
+.zed
+.azurite
