@@ -1,5 +1,12 @@
 [local]
-command = "func start"
+command = ["func", "start"]
 background_tasks = [
-    "azurite --silent --location .azurite --debug .azurite/debug.log",
+    [
+        "azurite",
+        "--silent",
+        "--location",
+        ".azurite",
+        "--debug",
+        ".azurite/debug.log",
+    ],
 ]
